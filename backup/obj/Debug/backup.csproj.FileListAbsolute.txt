@@ -48,7 +48,6 @@ C:\Users\user\Desktop\backup\backup\bin\Debug\K4os.Compression.LZ4.xml
 C:\Users\user\Desktop\backup\backup\bin\Debug\K4os.Compression.LZ4.Streams.xml
 C:\Users\user\Desktop\backup\backup\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\user\Desktop\backup\backup\bin\Debug\MySql.Data.xml
-C:\Users\user\Desktop\backup\backup\bin\Debug\MySql.Data.EntityFramework.xml
 C:\Users\user\Desktop\backup\backup\bin\Debug\System.Buffers.xml
 C:\Users\user\Desktop\backup\backup\bin\Debug\System.Memory.xml
 C:\Users\user\Desktop\backup\backup\bin\Debug\System.Numerics.Vectors.xml

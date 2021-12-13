@@ -104,9 +104,17 @@ namespace backup
                 MessageBox.Show("Please Select Save Data Folder");
                 return;
             }
-            foreach (string dirPath in Directory.GetDirectories(copyPath, "*", SearchOption.AllDirectories))
+            try
             {
-                Directory.CreateDirectory(dirPath.Replace(copyPath, backupPath));
+                foreach (string dirPath in Directory.GetDirectories(copyPath, "*", SearchOption.AllDirectories))
+                {
+                    Directory.CreateDirectory(dirPath.Replace(copyPath, backupPath));
+                }
+            }
+            catch
+            {
+                MessageBox.Show("InfluxDB Directory Not Founds !");
+                return;
             }
            
             try
