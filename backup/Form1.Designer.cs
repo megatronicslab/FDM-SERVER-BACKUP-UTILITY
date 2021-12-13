@@ -248,7 +248,6 @@
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(50);
             this.Text = "Backup and Restore Utility";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Backuptab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

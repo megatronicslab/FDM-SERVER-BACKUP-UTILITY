@@ -49,7 +49,7 @@ namespace backup
                 MessageBox.Show("Please Select Save Data folder");
                 return;
             }
-            string connstr = "server=localhost;user=root;pwd=12345;sslmode=none;";
+            string connstr = "server=localhost;user=cspl;pwd=x2A5nV3P0cSgtr2SFN8P18DL;sslmode=none;";
             using (MySqlConnection conn = new MySqlConnection(connstr))
             {
                 using (MySqlCommand cmd = new MySqlCommand())
@@ -131,7 +131,7 @@ namespace backup
                 MessageBox.Show("Please select Restore Folder");
                 return;
             }
-            string connstr = "server=localhost;user=root;pwd=12345;sslmode=none;";
+            string connstr = "server=localhost;user=cspl;pwd=x2A5nV3P0cSgtr2SFN8P18DL;sslmode=none;";
             using (MySqlConnection conn = new MySqlConnection(connstr))
             {
                 using (MySqlCommand cmd = new MySqlCommand())
@@ -173,7 +173,6 @@ namespace backup
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             string userPath = desktopPath.Remove(desktopPath.Length - 7);
             string saveDataPath = userPath + ".influxdb";
-            saveDataPath = "C:\\copy folder";
             if (selectRestorePath == null)
             {
                 MessageBox.Show("Please Select Restore Folder");
