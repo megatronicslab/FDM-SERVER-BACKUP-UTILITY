@@ -247,7 +247,7 @@
             this.MinimumSize = new System.Drawing.Size(600, 400);
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(50);
-            this.Text = "Backup and Restore Utility";
+            this.Text = "FDM Backup and Restore Utility";
             this.Backuptab.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

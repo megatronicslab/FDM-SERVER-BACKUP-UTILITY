@@ -12,6 +12,7 @@ using MySql.Data;
 using MySql.Data.MySqlClient;
 using System.IO;
 using Ionic.Zip;
+using System.Configuration;
 
 
 namespace backup

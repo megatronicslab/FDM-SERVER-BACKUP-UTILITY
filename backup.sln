@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backup", "backup\backup.csproj", "{9E35EA6F-1BE3-4134-AEE8-3FC05FD73756}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup3", "Setup3\Setup3.vdproj", "{E0DD8F98-4DB8-4485-AECB-3FEFF072977A}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FDM Backup And Restore", "Setup3\Setup3.vdproj", "{E0DD8F98-4DB8-4485-AECB-3FEFF072977A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FDM Backup And Restore Utility", "FDM Backup And Restore Utility\FDM Backup And Restore Utility.vdproj", "{4E46FD96-C00C-4981-AC2A-04A847884490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,8 @@ Global
 		{9E35EA6F-1BE3-4134-AEE8-3FC05FD73756}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0DD8F98-4DB8-4485-AECB-3FEFF072977A}.Debug|Any CPU.ActiveCfg = Debug
 		{E0DD8F98-4DB8-4485-AECB-3FEFF072977A}.Release|Any CPU.ActiveCfg = Release
+		{4E46FD96-C00C-4981-AC2A-04A847884490}.Debug|Any CPU.ActiveCfg = Debug
+		{4E46FD96-C00C-4981-AC2A-04A847884490}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
